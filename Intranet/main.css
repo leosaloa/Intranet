@@ -1,0 +1,126 @@
+@charset "utf-8";
+  @import url("fontes.css");
+
+
+  /* Fundo da tela */
+  body{
+    background-color: #DCDCDC;
+  }
+
+
+  /* Estilo dos links */
+  a:link, a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline; 
+      color: #000000
+  }
+  a:active {
+    text-decoration: none
+  }
+  a{
+    color: black
+  }
+
+  /* Botão/Fortamação de texto/contorno */ 
+  .dropbtn {
+    background-color: #A9A9A9;
+    color: #111111;
+    padding: 5% 5px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: arial black;
+    border-radius: 6px;
+    border: 0.5px solid #000000;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Fundo do menu */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0px 0%;
+    background-color: #F9F9F9;
+    min-width: 160px;
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,1);
+    z-index: 1;
+    border-radius: 15px;
+  }
+  
+  /* Texto Menu */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Quando passa o mouse no menu muda a cor do fundo */
+  .dropdown-content a:hover {background-color: #A9A9A9; 
+    text-decoration: underline;
+    border-radius: 15px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Quando passa o mouse no botao muda a cor */
+  .dropdown:hover .dropbtn {
+    background-color: #808080;
+    color: #282828;
+    text-decoration: underline #808080;
+  }
+    
+  /* ----------- Botão ----------- */
+  .botao01{
+    background: -webkit-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
+    border: 1px solid #CCCCCE;
+    border-radius: 30px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3),
+                0 2px 7px rgba(0, 0, 0, 0.2);
+    color: #000000;
+    display: block;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 130%;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow:1px 1px 0 #FFFFFF;
+    padding: 5px 15px;
+    position: relative;
+    width: 100px;
+  }
+
+  /* Clareamento do botao */
+  .botao01:after{
+    background: rgba(255, 255, 255, .4);
+    border-radius: 50px;
+    content: "";
+    bottom: 15px;
+    left: 2px;
+    right: 2px;
+    top: 4px;
+    position: absolute;
+  }
+
+  /* Quando clica no botão */
+  .botao01:active{
+    box-shadow: inset 0 0 7px rgba(0, 0, 0, .5);
+    top: 4px;
+  }
+  .botao01:active:before{
+    border: none;
+    box-shadow:none;
+  }
+
+
+
+/*                                                                                                       Leonardo Aparecido da Silva */
